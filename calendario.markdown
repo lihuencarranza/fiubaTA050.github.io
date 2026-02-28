@@ -39,15 +39,5 @@ permalink: /calendario/
 | Miércoles | 3/12 | Bitcoin <br> *(clase a cargo del Ing. Tomás Arjovsky)* | [Bitcoin \- Nakamoto](https://pdos.csail.mit.edu/6.824/papers/bitcoin.pdf) |
 | Viernes | 5/12 | **Entrega TP3** |  |
 
-## Fechas de Final
-
-| # | Fecha | Hora |
-| :---- | :---- | :---- |
-| 1 | 16/12 | 18:00 |
-| 2 | a definir | a definir |
-| 3 | a definir | a definir |
-| 4 | a definir | a definir |
-| 5 | a definir | a definir |
-
 [^1]: George Coulouris, Jean Dollimore, Tim Kindberg, and Gordon Blair. 2011. Distributed Systems: Concepts and Design (5th. ed.). Addison-Wesley Publishing Company, USA.
 
