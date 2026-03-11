@@ -6,18 +6,53 @@ layout: home
 title: Bienvenidos a Sistemas Distribuidos I
 ---
 
-Este es el nuevo curso de FIUBA sobre el diseño e implementación de sistemas distribuidos modernos.
-Estudiamos cómo múltiples procesos cooperan —a través de redes y relojes imperfectos— para ofrecer servicios coherentes, escalables y tolerantes a fallos.
+Este es el curso de FIUBA sobre el diseño e implementación de sistemas distribuidos modernos. Estudiamos cómo múltiples procesos cooperan para ofrecer servicios coherentes, escalables y tolerantes a fallos.
 
-Los temas incluyen comunicación y concurrencia (RPC, pasaje de mensajes, publicación/suscripción), sincronización y relojes distribuidos, consistencia y coordinación (Zookeeper, linealizabilidad), replicación y consenso (Raft), y arquitecturas elásticas de servicios (GFS, Dynamo, Memcache, DynamoDB).
+El curso se organiza en cuatro áreas de aplicación. En **Compute** estudiamos cómo distribuir y paralelizar trabajo entre múltiples nodos donde MapReduce y Spark se ven como paradigmas de cómputo batch y analítico, y los mecanismos que hacen posible que ese cómputo sea correcto y resiliente. En **Storage** exploramos filesystems distribuidos, transacciones, consistencia en caches, y bases de datos a escala global como Aurora y Spanner. En **Stream Processing** abordamos mensajería distribuida, el log como estructura unificadora, y el procesamiento de flujos de datos en tiempo real con garantías semánticas precisas. En **Cloud Computing** estudiamos orquestación de recursos, sistemas elásticos, cómputo serverless, y los principios de observabilidad y operabilidad que sostienen servicios en producción.
 
-También se introducen conceptos de middleware orientado a mensajes (MOM) y los fundamentos de blockchain y Bitcoin, como ejemplos actuales de sistemas descentralizados que alcanzan tolerancia a fallos bizantinos —un área clave en el diseño de infraestructuras seguras y transparentes.
+La cursada combina teoría y práctica intensiva: los trabajos prácticos reproducen técnicas reales para formar ingenieros capaces de construir y operar sistemas distribuidos robustos a gran escala.
 
-La cursada combina teoría y práctica intensiva: los trabajos prácticos reproducen técnicas reales —desde MapReduce hasta Raft— para formar ingenieros capaces de construir sistemas distribuidos robustos a gran escala.
-
-## Clases virtuales
+# Clases virtuales
 
 Miércoles y Viernes · 6:00 – 9:00pm  
 Zona horaria: America/Argentina/Buenos_Aires  
 Información para unirse con Google Meet  
 Enlace de la videollamada: [https://meet.google.com/htg-dkva-htv](https://meet.google.com/htg-dkva-htv)
+
+# Docentes
+
+{% assign docentes = site.data.docentes %}
+
+<div class="docentes-list">
+  <div class="docentes-section">
+    <h3 class="docentes-section-title"><i class="fa fa-graduation-cap fa-lg"></i>Profesor</h3>
+    {% for person in docentes.instructor %}
+    <div class="docentes-person">
+      <img class="docentes-person-img" src="{{ person.image | relative_url }}" alt="{{ person.name }}" />
+      <div class="docentes-person-name">
+        {% if person.url and person.url != "" %}
+        <a href="{{ person.url }}">{{ person.name }}</a>
+        {% else %}
+        <span>{{ person.name }}</span>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="docentes-section">
+    <h3 class="docentes-section-title"><i class="fa fa-users fa-lg"></i>Ayudantes</h3>
+    {% for person in docentes.ayudantes %}
+    <div class="docentes-person">
+      <img class="docentes-person-img" src="{{ person.image | relative_url }}" alt="{{ person.name }}" />
+      <div class="docentes-person-name">
+        {% if person.url and person.url != "" %}
+        <a href="{{ person.url }}">{{ person.name }}</a>
+        {% else %}
+        <span>{{ person.name }}</span>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

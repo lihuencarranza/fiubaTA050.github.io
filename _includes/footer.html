@@ -1,0 +1,37 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">
+            {%- if site.author -%}
+              {{ site.author | escape }}
+            {%- else -%}
+              {{ site.title | escape }}
+            {%- endif -%}
+            </li>
+            {%- if site.email -%}
+            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {%- endif -%}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        {%- include social.html -%}
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <label for="cuatrimestres-select">Cuatrimestres Anteriores</label>
+        <select id="cuatrimestres-select" onchange="if(this.value) window.location.href=this.value">
+          <option value="">— Elegir —</option>
+          <option value="{{ '/archive/2025b' | relative_url }}">2025b</option>
+        </select>
+      </div>
+    </div>
+
+  </div>
+
+</footer>

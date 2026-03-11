@@ -1,0 +1,58 @@
+.docentes-list {
+  font-family: inherit;
+  margin: 1.5em 0;
+}
+.docentes-list .docentes-section {
+  margin-top: 2em;
+}
+.docentes-list .docentes-section:first-child {
+  margin-top: 0;
+}
+.docentes-list .docentes-section-title {
+  font-size: 1.25em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  display: flex;
+  align-items: center;
+  gap: 0.35em;
+}
+.docentes-list .docentes-section-title .icon {
+  font-style: normal;
+}
+.docentes-list .docentes-name-header {
+  font-size: 0.9em;
+  color: #666;
+  text-align: right;
+  padding-right: 0.5em;
+  margin-bottom: 0.25em;
+  border-bottom: 1px solid #eee;
+}
+.docentes-list .docentes-person {
+  display: flex;
+  align-items: center;
+  padding: 0.6em 0;
+  border-bottom: 1px solid #eee;
+}
+.docentes-list .docentes-section .docentes-person:last-child {
+  border-bottom: none;
+}
+.docentes-list .docentes-person-img {
+  width: 70px;
+  height: 70px;
+  min-width: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.docentes-list .docentes-person-name {
+  margin-left: 1em;
+}
+.docentes-list .docentes-person-name a {
+  color: #8b4512;
+  text-decoration: underline;
+}
+.docentes-list .docentes-person-name a:hover {
+  color: #654321;
+}
+.docentes-list .docentes-person-name span {
+  color: #333;
+}

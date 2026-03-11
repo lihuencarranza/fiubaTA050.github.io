@@ -1,0 +1,15 @@
+instructor:
+  - name: Emmanuel Espina
+    image: "/assets/images/eespina.jpeg"
+
+ayudantes:
+  - name: Alen Davies
+    image: "/assets/images/adavies.jpeg"
+  - name: Bautista Silvano Lima
+    image: "/assets/images/bsilvano.jpeg"
+  - name: Ignacio Viau
+    image: "/assets/images/placeholder.png"
+  - name: Leticia Isabel Aab
+    image: "/assets/images/laab.jpeg"
+  - name: Luca Lazcano
+    image: "/assets/images/llazcano.jpeg"
