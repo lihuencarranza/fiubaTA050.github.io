@@ -56,3 +56,8 @@
 .docentes-list .docentes-person-name span {
   color: #333;
 }
+
+.calendario td:nth-child(5),
+.calendario td:nth-child(6) {
+  text-align: center;
+}

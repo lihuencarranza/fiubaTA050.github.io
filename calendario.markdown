@@ -11,6 +11,8 @@ permalink: /calendario/
       <th>Fecha</th>
       <th>Tema</th>
       <th>Lecturas</th>
+      <th>Notas</th>
+      <th>Video</th>
     </tr>
   </thead>
   <tbody>
@@ -25,6 +27,8 @@ permalink: /calendario/
         </ul>
       </td>
       <td><a href="https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf">How to read a paper - Keshav</a></td>
+      <td><a href="https://drive.google.com/file/d/1nvDap74mlYvCX81Cc1maEGsZ_fKwhrgu/view?usp=drive_link"><i class="fas fa-file-pdf fa-lg"></i></a></td>
+      <td><a href="https://youtu.be/M5nVa0z5FGQ"><i class="fas fa-file-video fa-lg"></i></a></td>
     </tr>
     <tr>
       <td>Viernes</td>
@@ -36,6 +40,8 @@ permalink: /calendario/
         </ul>
       </td>
       <td><a href="https://static.googleusercontent.com/media/research.google.com/es//archive/mapreduce-osdi04.pdf">MapReduce - Dean</a></td>
+      <td><a href="https://drive.google.com/file/d/1kLjeiW77cAGTCqIfxOtwWB5KTHvVQu68/view?usp=drive_link"><i class="fas fa-file-pdf fa-lg"></i></a></td>
+      <td><a href="https://youtu.be/rZEyNErIXbE"><i class="fas fa-file-video fa-lg"></i></a></td>
     </tr>
     <tr>
       <td>Miércoles</td>
@@ -46,6 +52,8 @@ permalink: /calendario/
         </ul>
       </td>
       <td><a href="https://go.dev/tour">A Tour of Go</a></td>
+      <td>—</td>
+      <td>—</td>
     </tr>
     <tr>
       <td>Viernes</td>
@@ -57,6 +65,8 @@ permalink: /calendario/
         </ul>
       </td>
       <td><a href="https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying">The Log - Kreps</a></td>
+      <td>—</td>
+      <td>—</td>
     </tr>
     <tr>
       <td>Miércoles</td>
@@ -67,12 +77,16 @@ permalink: /calendario/
         </ul>
       </td>
       <td><a href="https://static.googleusercontent.com/media/research.google.com/es//archive/gfs-sosp2003.pdf">GFS - Ghemawat</a></td>
+      <td>—</td>
+      <td>—</td>
     </tr>
     <tr>
       <td>Viernes</td>
       <td>27/3</td>
       <td></td>
       <td></td>
+      <td>—</td>
+      <td>—</td>
     </tr>
     <tr class="cal-entrega">
       <td>Miércoles</td>
@@ -83,6 +97,8 @@ permalink: /calendario/
         </ul>
       </td>
       <td></td>
+      <td>—</td>
+      <td>—</td>
     </tr>
     <tr class="cal-feriado">
       <td>Viernes</td>
@@ -93,6 +109,8 @@ permalink: /calendario/
         </ul>
       </td>
       <td></td>
+      <td>—</td>
+      <td>—</td>
     </tr>
     <tr>
       <td>Miércoles</td>
@@ -104,6 +122,8 @@ permalink: /calendario/
         </ul>
       </td>
       <td><a href="https://pdos.csail.mit.edu/6.824/papers/raft-extended.pdf">Raft - Ongaro</a></td>
+      <td>—</td>
+      <td>—</td>
     </tr>
     <tr>
       <td>Viernes</td>
@@ -114,6 +134,8 @@ permalink: /calendario/
         </ul>
       </td>
       <td><a href="https://pdos.csail.mit.edu/6.824/papers/raft-extended.pdf">Raft - Ongaro</a></td>
+      <td>—</td>
+      <td>—</td>
     </tr>
     <tr class="cal-entrega">
       <td>Miércoles</td>
@@ -126,12 +148,16 @@ permalink: /calendario/
         </ul>
       </td>
       <td><a href="https://www.usenix.org/legacy/event/atc10/tech/full_papers/Hunt.pdf">Zookeeper - Hunt</a></td>
+      <td>—</td>
+      <td>—</td>
     </tr>
     <tr>
       <td>Viernes</td>
       <td>17/4</td>
       <td></td>
       <td></td>
+      <td>—</td>
+      <td>—</td>
     </tr>
     <tr class="cal-entrega">
       <td>Miércoles</td>
@@ -143,12 +169,16 @@ permalink: /calendario/
         </ul>
       </td>
       <td><a href="https://pdos.csail.mit.edu/6.824/papers/memcache-fb.pdf">Memcache - Nishtala</a></td>
+      <td>—</td>
+      <td>—</td>
     </tr>
     <tr>
       <td>Viernes</td>
       <td>24/4</td>
       <td></td>
       <td></td>
+      <td>—</td>
+      <td>—</td>
     </tr>
     <tr class="cal-entrega">
       <td>Miércoles</td>
@@ -163,6 +193,8 @@ permalink: /calendario/
         </ul>
       </td>
       <td><a href="https://www.amazon.science/publications/dynamo-amazons-highly-available-key-value-store">Dynamo - DeCandia</a></td>
+      <td>—</td>
+      <td>—</td>
     </tr>
     <tr class="cal-feriado">
       <td>Viernes</td>
@@ -173,6 +205,8 @@ permalink: /calendario/
         </ul>
       </td>
       <td></td>
+      <td>—</td>
+      <td>—</td>
     </tr>
     <tr class="cal-entrega">
       <td>Miércoles</td>
@@ -187,6 +221,8 @@ permalink: /calendario/
         </ul>
       </td>
       <td><a href="https://www.usenix.org/system/files/atc22-elhemali.pdf">DynamoDb - Elhemali</a></td>
+      <td>—</td>
+      <td>—</td>
     </tr>
     <tr>
       <td>Viernes</td>
@@ -198,6 +234,8 @@ permalink: /calendario/
         </ul>
       </td>
       <td><a href="https://www.usenix.org/system/files/atc23-idziorek.pdf">DynamoDb - Idziorek</a></td>
+      <td>—</td>
+      <td>—</td>
     </tr>
     <tr>
       <td>Miércoles</td>
@@ -208,6 +246,8 @@ permalink: /calendario/
         </ul>
       </td>
       <td><a href="http://nil.csail.mit.edu/6.824/2020/papers/aurora.pdf">Aurora - Verbitski</a></td>
+      <td>—</td>
+      <td>—</td>
     </tr>
     <tr>
       <td>Viernes</td>
@@ -218,6 +258,8 @@ permalink: /calendario/
         </ul>
       </td>
       <td><a href="http://nil.csail.mit.edu/6.5840/2025/papers/spanner.pdf">Spanner - Corbett</a></td>
+      <td>—</td>
+      <td>—</td>
     </tr>
     <tr>
       <td>Miércoles</td>
@@ -228,6 +270,8 @@ permalink: /calendario/
         </ul>
       </td>
       <td><a href="http://nil.csail.mit.edu/6.5840/2023/papers/zaharia-spark.pdf">Spark - Zaharia</a></td>
+      <td>—</td>
+      <td>—</td>
     </tr>
     <tr>
       <td>Viernes</td>
@@ -237,6 +281,8 @@ permalink: /calendario/
         </ul>
       </td>
       <td></td>
+      <td>—</td>
+      <td>—</td>
     </tr>
     <tr>
       <td>Miércoles</td>
@@ -248,6 +294,8 @@ permalink: /calendario/
         </ul>
       </td>
       <td><a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2017/09/Kafka.pdf">Kafka - Kreps</a></td>
+      <td>—</td>
+      <td>—</td>
     </tr>
     <tr>
       <td>Viernes</td>
@@ -258,6 +306,8 @@ permalink: /calendario/
         </ul>
       </td>
       <td><a href="https://research.google/pubs/millwheel-fault-tolerant-stream-processing-at-internet-scale/">Millwheel - Akidau</a><br><a href="https://static.googleusercontent.com/media/research.google.com/es//pubs/archive/43864.pdf">Dataflow - Akidau</a></td>
+      <td>—</td>
+      <td>—</td>
     </tr>
     <tr>
       <td>Miércoles</td>
@@ -268,6 +318,8 @@ permalink: /calendario/
         </ul>
       </td>
       <td></td>
+      <td>—</td>
+      <td>—</td>
     </tr>
     <tr class="cal-entrega">
       <td>Viernes</td>
@@ -278,6 +330,8 @@ permalink: /calendario/
         </ul>
       </td>
       <td></td>
+      <td>—</td>
+      <td>—</td>
     </tr>
     <tr>
       <td>Miércoles</td>
@@ -288,12 +342,16 @@ permalink: /calendario/
         </ul>
       </td>
       <td><a href="https://pdos.csail.mit.edu/6.824/papers/bitcoin.pdf">Bitcoin - Nakamoto</a></td>
+      <td>—</td>
+      <td>—</td>
     </tr>
     <tr>
       <td>Viernes</td>
       <td>12/6</td>
       <td></td>
       <td></td>
+      <td>—</td>
+      <td>—</td>
     </tr>
     <tr>
       <td>Miércoles</td>
@@ -306,6 +364,8 @@ permalink: /calendario/
         </ul>
       </td>
       <td><a href="http://nil.csail.mit.edu/6.824/2016/papers/borg.pdf">Borg - Verma</a></td>
+      <td>—</td>
+      <td>—</td>
     </tr>
     <tr>
       <td>Viernes</td>
@@ -317,12 +377,16 @@ permalink: /calendario/
         </ul>
       </td>
       <td><a href="https://pdos.csail.mit.edu/6.824/papers/atc23-brooker.pdf">Lambda</a> <a href="https://www.usenix.org/system/files/nsdi20-paper-agache.pdf">Firecracker</a></td>
+      <td>—</td>
+      <td>—</td>
     </tr>
     <tr>
       <td>Miércoles</td>
       <td>24/6</td>
       <td></td>
       <td></td>
+      <td>—</td>
+      <td>—</td>
     </tr>
     <tr>
       <td>Viernes</td>
@@ -333,6 +397,8 @@ permalink: /calendario/
         </ul>
       </td>
       <td><a href="https://s3.amazonaws.com/systemsandpapers/papers/hamilton.pdf">Services - Hamilton</a></td>
+      <td>—</td>
+      <td>—</td>
     </tr>
   </tbody>
 </table>
