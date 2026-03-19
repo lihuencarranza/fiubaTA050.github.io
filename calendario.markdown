@@ -48,11 +48,15 @@ permalink: /calendario/
       <td>18 mar</td>
       <td class="calendar-activity"><span class="lecture-title">Clase 3 — Introducción a Go</span>
         <dl class="cal-activity-dl">
+          <dt class="cal-mobile-only"><i class="fas fa-file-pdf"></i> Notas:</dt>
+          <dd class="cal-mobile-only"><a href="https://drive.google.com/file/d/1wtLvsWcKy6D0Q8uuE-3xbeuaj54xYh9u/view?usp=drive_link" class="schedule-badge">Descargar <i class="fas fa-arrow-circle-down"></i></a></dd>
+          <dt class="cal-mobile-only"><i class="fas fa-file-video"></i> Video:</dt>
+          <dd class="cal-mobile-only"><a href="https://youtu.be/DPRAWW9zVsM" target="_blank" rel="noopener noreferrer" class="schedule-badge">Ver <i class="fas fa-external-link-alt"></i></a></dd>
           <dt><i class="fas fa-book"></i> Lecturas:</dt>
           <dd><a href="https://go.dev/tour">A Tour of Go</a></dd>
         </dl></td>
-      <td>—</td>
-      <td>—</td>
+      <td><a href="https://drive.google.com/file/d/1wtLvsWcKy6D0Q8uuE-3xbeuaj54xYh9u/view?usp=drive_link"><i class="fas fa-file-pdf fa-lg"></i></a></td>
+      <td><a href="https://youtu.be/DPRAWW9zVsM"><i class="fas fa-file-video fa-lg"></i></a></td>
     </tr>
     <tr>
       <td>20 mar</td>
