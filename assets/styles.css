@@ -57,7 +57,69 @@
   color: #333;
 }
 
-.calendario td:nth-child(5),
-.calendario td:nth-child(6) {
+.calendario {
+  border-left: none;
+  border-right: none;
+}
+
+.calendario th,
+.calendario td {
+  border-left: none;
+  border-right: none;
+}
+
+.calendario td:nth-child(3),
+.calendario td:nth-child(4) {
   text-align: center;
+}
+
+.calendario tr.cal-feriado td {
+  background-color: #e8f5e9;
+}
+
+/* Calendario: columna Tema (estilo tipo schedule CMU) */
+.calendario .calendar-activity {
+  vertical-align: top;
+}
+.calendario .calendar-activity .lecture-title {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.35em;
+}
+.calendario .calendar-activity .cal-activity-dl {
+  margin: 0;
+  padding-left: 0.25rem;
+  display: grid;
+  grid-template-columns: minmax(5.5rem, auto) 1fr;
+  gap: 0.2em 0.65em;
+  align-items: baseline;
+  font-size: 0.95em;
+}
+.calendario .calendar-activity .cal-activity-dl dt {
+  margin: 0;
+  font-weight: normal;
+  color: #555;
+}
+.calendario .calendar-activity .cal-activity-dl dd {
+  margin: 0;
+}
+.calendario .calendar-activity .cal-activity-dl a.schedule-badge {
+  white-space: nowrap;
+}
+
+/* Escritorio/tablet ancho: 4 columnas; sin duplicar Notas/Video en la celda Tema */
+@media (min-width: 768px) {
+  .calendario .cal-mobile-only {
+    display: none;
+  }
+}
+
+/* Teléfono: Notas y Video solo dentro de Tema; ocultar columnas dedicadas */
+@media (max-width: 767.98px) {
+  .calendario th:nth-child(3),
+  .calendario th:nth-child(4),
+  .calendario td:nth-child(3),
+  .calendario td:nth-child(4) {
+    display: none;
+  }
 }
