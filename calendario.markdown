@@ -62,11 +62,15 @@ permalink: /calendario/
       <td>20 mar</td>
       <td class="calendar-activity"><span class="lecture-title">Clase 4 — Replicación y Sharding</span>
         <dl class="cal-activity-dl">
+          <dt class="cal-mobile-only"><i class="fas fa-file-pdf"></i> Notas:</dt>
+          <dd class="cal-mobile-only"><a href="https://drive.google.com/file/d/1iCz9IUjIORb7JuuVGQ4DZ6UUx_11Pc5j/view?usp=drive_link" class="schedule-badge">Descargar <i class="fas fa-arrow-circle-down"></i></a></dd>
+          <dt class="cal-mobile-only"><i class="fas fa-file-video"></i> Video:</dt>
+          <dd class="cal-mobile-only"><a href="https://youtu.be/KtEH4GHeIKs" target="_blank" rel="noopener noreferrer" class="schedule-badge">Ver <i class="fas fa-external-link-alt"></i></a></dd>
           <dt><i class="fas fa-book"></i> Lecturas:</dt>
           <dd><a href="https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying">The Log - Kreps</a></dd>
         </dl></td>
-      <td>—</td>
-      <td>—</td>
+      <td><a href="https://drive.google.com/file/d/1iCz9IUjIORb7JuuVGQ4DZ6UUx_11Pc5j/view?usp=drive_link"><i class="fas fa-file-pdf fa-lg"></i></a></td>
+      <td><a href="https://youtu.be/KtEH4GHeIKs"><i class="fas fa-file-video fa-lg"></i></a></td>
     </tr>
     <tr>
       <td>25 mar</td>
