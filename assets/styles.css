@@ -103,6 +103,18 @@
 .calendario .calendar-activity .cal-activity-dl dd {
   margin: 0;
 }
+
+.calendario .calendar-activity .cal-activity-dl dd ul.cal-reading-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+}
+.calendario .calendar-activity .cal-activity-dl dd ul.cal-reading-list > li {
+  margin: 0;
+}
 .calendario .calendar-activity .cal-activity-dl a.schedule-badge {
   white-space: nowrap;
 }
@@ -122,4 +134,17 @@
   .calendario td:nth-child(4) {
     display: none;
   }
+}
+
+.cal-bibliografia-heading {
+  margin-top: 2rem;
+  font-size: 1.15em;
+  font-weight: 600;
+}
+.cal-bibliografia {
+  margin: 0.5em 0 0;
+  padding-left: 1.5rem;
+}
+.cal-bibliografia cite {
+  font-style: italic;
 }
