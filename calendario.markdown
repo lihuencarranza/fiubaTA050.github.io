@@ -87,11 +87,15 @@ permalink: /calendario/
       <td>25 mar</td>
       <td class="calendar-activity"><span class="lecture-title">Clase 5 — Google File System</span>
         <dl class="cal-activity-dl">
+          <dt class="cal-mobile-only"><i class="fas fa-file-pdf"></i> Notas:</dt>
+          <dd class="cal-mobile-only"><a href="https://drive.google.com/file/d/1FcaEAqVGvVee-Z4JJ6XRvsPyHnz8Rsvt/view?usp=drive_link" class="schedule-badge">Descargar <i class="fas fa-arrow-circle-down"></i></a></dd>
+          <dt class="cal-mobile-only"><i class="fas fa-file-video"></i> Video:</dt>
+          <dd class="cal-mobile-only"><a href="https://youtu.be/UF9RbIxnSs8" target="_blank" rel="noopener noreferrer" class="schedule-badge">Ver <i class="fas fa-external-link-alt"></i></a></dd>
           <dt><i class="fas fa-scroll"></i> Paper:</dt>
           <dd><a href="https://static.googleusercontent.com/media/research.google.com/es//archive/gfs-sosp2003.pdf">GFS - Ghemawat</a></dd>
         </dl></td>
-      <td>—</td>
-      <td>—</td>
+      <td><a href="https://drive.google.com/file/d/1FcaEAqVGvVee-Z4JJ6XRvsPyHnz8Rsvt/view?usp=drive_link"><i class="fas fa-file-pdf fa-lg"></i></a></td>
+      <td><a href="https://youtu.be/UF9RbIxnSs8"><i class="fas fa-file-video fa-lg"></i></a></td>
     </tr>
     <tr>
       <td>27 mar</td>
