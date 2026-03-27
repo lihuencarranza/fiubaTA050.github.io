@@ -19,6 +19,10 @@ Zona horaria: America/Argentina/Buenos_Aires
 Información para unirse con Google Meet  
 Enlace de la videollamada: [https://meet.google.com/htg-dkva-htv](https://meet.google.com/htg-dkva-htv)
 
+## Calendario de Google
+
+Podés [agregar el calendario de la materia a tu Google Calendar](https://calendar.google.com/calendar/u/0?cid=Y18xZTVkMDU2NmVlMTdkNGEyZDg2YWY3N2UwOThlMTIzNzc1MTUyZjY2NDNhODZmOTI4YzNiZjJlZTMxMTY0Y2I3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20) para ver las clases y recordatorios en tu propia agenda. **El calendario está disponible cuando iniciás sesión con la cuenta de Google de la facultad**.
+
 # Docentes
 
 {% assign docentes = site.data.docentes %}
